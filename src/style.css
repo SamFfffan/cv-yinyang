@@ -25,6 +25,7 @@
   transform: translateX(-50%);
   top: 20px;
 }
+
 #div1::before {
   content: "";
   display: block;
@@ -33,6 +34,7 @@
   content: "";
   display: block;
 }
+
 @media (max-width: 500px) {
   #html {
     height: 50vh;
